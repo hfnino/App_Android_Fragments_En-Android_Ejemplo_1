@@ -14,7 +14,8 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
-    <fragment android:name="co.com.henryto.ejemplo_de_fragment.RedFragment"
+    <fragment
+        android:name="co.com.henryto.ejemplo_de_fragment.RedFragment"
         android:id="@+id/firstFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -23,7 +24,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/guideline"/>
 
-    <fragment android:name="co.com.henryto.ejemplo_de_fragment.BlueFragment"
+    <fragment
+        android:name="co.com.henryto.ejemplo_de_fragment.BlueFragment"
         android:id="@+id/secondFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent" 
